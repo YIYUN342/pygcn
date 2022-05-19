@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T06:58:10.697Z" agent="5.0 (Windows)" version="18.0.7" etag="YjJQ0o4oh5T2d4CcH-wc" type="github"><diagram id="n8ofz_4CapBKel7ypv7i">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-19T07:15:20.931Z" agent="5.0 (Windows)" etag="P-WHzZvnmGZsTDyq4_HA" version="18.0.7" type="github">
+  <diagram id="n8ofz_4CapBKel7ypv7i" name="Page-1">
+    <mxGraphModel dx="820" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-1" value="药物信息表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-2" value="药物ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9i4y1Kh2QoNs7plDu90J-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-3" value="药物名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9i4y1Kh2QoNs7plDu90J-1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-4" value="药物种类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9i4y1Kh2QoNs7plDu90J-1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-5" value="药品种类表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="280" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-6" value="药物种类ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9i4y1Kh2QoNs7plDu90J-5">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-7" value="药品种类名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9i4y1Kh2QoNs7plDu90J-5">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-9" value="药物交互表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-10" value="药物交互ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9i4y1Kh2QoNs7plDu90J-9">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-11" value="一号药物ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9i4y1Kh2QoNs7plDu90J-9">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-12" value="二号药物ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9i4y1Kh2QoNs7plDu90J-9">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-17" value="药物交互等级ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9i4y1Kh2QoNs7plDu90J-9">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-22" value="药物交互作用类型ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9i4y1Kh2QoNs7plDu90J-9">
+          <mxGeometry y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-13" value="药物交互等级表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-14" value="药物交互等级ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9i4y1Kh2QoNs7plDu90J-13">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-15" value="药物交互等级名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9i4y1Kh2QoNs7plDu90J-13">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-18" value="药物交互作用类型表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="495" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-20" value="药物交互作用类型ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9i4y1Kh2QoNs7plDu90J-18">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9i4y1Kh2QoNs7plDu90J-21" value="药物交互作用类型名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9i4y1Kh2QoNs7plDu90J-18">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
